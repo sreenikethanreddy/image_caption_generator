@@ -4,8 +4,11 @@ import io
 import nltk
 from transformers import BlipProcessor, BlipForConditionalGeneration
 import os
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)  # Enable CORS for all routes
 
 # Download NLTK data
 nltk.download('punkt')
