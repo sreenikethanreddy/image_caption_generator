@@ -1,0 +1,6 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+#captionOutput {
+    min-height: 2em;
+}
